@@ -1,0 +1,9 @@
+# sha256 of the model checkpoints used (read from the pod, 2026-10-25)
+ea405417450abd8ace1b8ff79ebce3adb646c5e48ab95da46844d77efe984d8a  reader-v3.pth
+654ec5acec2b6c4788d9cb326e2f0b8c2c730584949a934ef775db7f6ab5d3a6  reader-v2-step040000.pth
+24e05e1f5ee4fd222fe5fb64f4e67ab5ae55fde8c503aa45ec1817f7bcc76244  dense_native-016000.rebuilt.pth
+d3d95dc41dcb24ed76b84b5e12ca5dae25d7fb34edf1dfbb93e0186f91e6fc6d  dense_native_016000.safetensors
+e635558ae6a1a807a7e5ec1e83adfd45bc3c0ac53883ea43f1d4e085d62a9cab  hybrid_3d2d-seed42_step-075000.pth (ink_9um seed 42)
+2aeaa85a35ef28d7bc7bf3e848c4a6a91385e9132710927fdba41133c4ecb28f  hybrid_3d2d-seed43_step-075000.pth (ink_9um seed 43)
+809f4f10f7cb7afa19b4bee0f7d2ab31edd7e11b664f9f210cc9c17f22fcfe5d  hecate_9.6um.pth
+c232c18a1a86cfb91257a00db13288202bb8ae33732ba26f7291a9b8adb8da59  hecate.py

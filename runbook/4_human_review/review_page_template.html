@@ -1,0 +1,258 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ink Review</title>
+<style>
+  :root { --bg: #111315; --panel: #1b1e21; --line: #2c3035; --text: #e6e8ea; --dim: #9aa1a8;
+          --ink: #3fb27f; --no: #c0564b; --unsure: #d6a23a; --letters: #2fbf71; --maybe: #57b8c9; --strokes: #a58be0; --accent: #6aa5ff; }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--text); font: 14px/1.4 -apple-system, system-ui, sans-serif; }
+  header { position: sticky; top: 0; z-index: 2; background: var(--panel); border-bottom: 1px solid var(--line);
+           padding: 10px 16px; display: flex; flex-wrap: wrap; gap: 10px 16px; align-items: center; }
+  h1 { font-size: 15px; margin: 0 8px 0 0; }
+  .meta { color: var(--dim); }
+  .meta b { color: var(--text); font-weight: 600; }
+  button, select, input[type=text] { font: inherit; color: var(--text); background: #262a2e; border: 1px solid var(--line);
+           border-radius: 6px; padding: 6px 10px; }
+  button { cursor: pointer; }
+  button:hover { border-color: var(--dim); }
+  .v-ink.on { background: var(--ink); border-color: var(--ink); color: #08130d; }
+  .v-no.on { background: var(--no); border-color: var(--no); color: #1a0806; }
+  .v-unsure.on { background: var(--unsure); border-color: var(--unsure); color: #1a1205; }
+  .v-letters.on { background: var(--letters); border-color: var(--letters); color: #08130d; }
+  .v-maybe.on { background: var(--maybe); border-color: var(--maybe); color: #061317; }
+  .v-strokes.on { background: var(--strokes); border-color: var(--strokes); color: #120a1f; }
+  kbd { font-size: 11px; color: var(--dim); margin-left: 4px; }
+  #note { flex: 1 1 240px; min-width: 180px; }
+  main { display: flex; gap: 16px; padding: 16px; align-items: flex-start; }
+  #view { flex: 1 1 auto; min-width: 0; }
+  #ref { display: none; position: fixed; right: 0; bottom: 0; top: var(--hdr, 70px); width: 44vw; overflow: auto;
+         background: var(--panel); border-left: 1px solid var(--line); padding: 12px; z-index: 1; }
+  #ref.show { display: block; }
+  body.refon main { padding-right: calc(44vw + 16px); }
+  #ref img { width: 100%; height: auto; display: block; margin-bottom: 10px; border: 1px solid var(--line); border-radius: 4px; }
+  #ref .cap { color: var(--dim); font-size: 12px; margin: 2px 0 4px; }
+  html, body { overflow-x: hidden; }
+  #view img { max-width: 100%; }
+  #view .sheet.actual { max-width: none; }
+  .label { font-size: 18px; font-weight: 600; margin: 0 0 4px; }
+  .sheet { width: 100%; height: auto; background: #000; border: 1px solid var(--line); border-radius: 4px; display: block; }
+  .sheet.actual { width: auto; max-width: none; }
+  .scroller { overflow: auto; }
+  .panels { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 10px; margin-top: 14px; }
+  .panels a { display: block; color: var(--dim); text-decoration: none; font-size: 12px; }
+  .panels img { width: 100%; height: auto; border: 1px solid var(--line); border-radius: 4px; background: #000; }
+  .hint { color: var(--dim); font-size: 12px; margin: 8px 0 12px; }
+  .empty { color: var(--dim); padding: 40px; text-align: center; }
+  body.mirror #view img { transform: scaleX(-1); }  /* letters read backwards if the spiral sense is wrong */
+  .trio { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px; align-items: start; }
+  .trio .cap { font-size: 12px; color: var(--dim); margin-bottom: 4px; }
+  .trio .cap b { color: var(--text); }
+  .trio .cur img { outline: 2px solid var(--accent); }
+  .label.sub { margin-top: 16px; font-size: 15px; }
+  .hero { margin: 8px 0 0; } .hero img { width: 100%; height: auto; display: block; border-radius: 4px; }
+  .hero figcaption { font-size: 12px; opacity: .75; margin-top: 4px; }
+  .badge { font-size: 11px; padding: 1px 6px; border-radius: 10px; margin-left: 4px; }
+  .b-touch { background: #a8742a; color: #fff; } .b-same { background: #c0564b; color: #fff; }
+  .b-ink { background: var(--ink); color: #08130d; } .b-no { background: var(--no); color: #1a0806; }
+  .b-unsure { background: var(--unsure); color: #1a1205; } .b-letters { background: var(--letters); color: #08130d; }
+  .b-maybe { background: var(--maybe); color: #061317; } .b-strokes { background: var(--strokes); color: #120a1f; }
+  @media (max-width: 800px) { #ref { width: 100vw; } body.refon main { padding-right: 16px; } }
+</style>
+</head>
+<body>
+<header>
+  <h1>Ink Review</h1>
+  <span class="meta" id="pos"></span>
+  <select id="filter" title="Which flags to show">
+    <option value="cand" data-name="Your candidates (detail review)">Your candidates</option>
+    <option value="todo" data-name="Your candidates: not judged yet">Not judged yet</option>
+    <option value="good" data-name="Judged letters / possible letters">Letters</option>
+    <option value="judged" data-name="Everything judged so far">Judged</option>
+    <option value="main" data-name="All main-pass flags">Main pass</option>
+    <option value="all" data-name="Every flag, incl. exploratory">All</option>
+  </select>
+  <select id="order" title="Order of the flags">
+    <option value="strength">Strongest first</option>
+    <option value="pos">By position (window, turn)</option>
+    <option value="touch">Touching flags together (as on 343)</option>
+  </select>
+  <button id="prev">&larr; Prev</button>
+  <button id="next">Next &rarr;</button>
+  <button class="v-letters" data-v="letters" title="Clear letter shapes, like the 343 reference">Letters<kbd>1</kbd></button>
+  <button class="v-maybe" data-v="maybe" title="Stroke shapes that could be a letter">Possible letter<kbd>2</kbd></button>
+  <button class="v-strokes" data-v="strokes" title="Looks like ink (strokes) but no letter shape">Ink, no letter<kbd>3</kbd></button>
+  <button class="v-unsure" data-v="unsure" title="Cannot tell">Unsure<kbd>4</kbd></button>
+  <button class="v-no" data-v="no" title="Noise: blobs, fibres, edges, cracks, or the same on the neighbour turns">Not ink<kbd>5</kbd></button>
+  <input type="text" id="note" placeholder="Note (optional; Enter or Esc to finish, keys pause while typing)">
+  <button id="reftoggle">343 reference<kbd>R</kbd></button>
+  <button id="nbr">Neighbour turns<kbd>G</kbd></button>
+  <button id="mir">Mirror<kbd>M</kbd></button>
+  <button id="yel" class="on" title="Yellow ink view, shown first (on by default)">Yellow ink<kbd>Y</kbd></button>
+  <button id="size">Actual size<kbd>F</kbd></button>
+  <button id="export">Export verdicts</button>
+  <label class="meta"><input type="file" id="import" accept=".json" hidden><button type="button" id="importbtn">Import</button></label>
+</header>
+<main>
+  <section id="view"></section>
+  <aside id="ref"><div class="label">PHerc. 343 control (our fits)</div>
+    <div class="hint">Known letters on PHerc. 343, from our own fits: the reverse-face ink panels. Real ink looks like this: separate stroke-shaped marks in rows, not diffuse speckle. Press R to close.</div></aside>
+</main>
+<script>
+/*DATA*/
+const KEY = "inkReviewVerdicts";
+let verdicts = {};
+try { verdicts = JSON.parse(localStorage.getItem(KEY) || "{}"); } catch (e) { verdicts = {}; }
+const save = () => { try { localStorage.setItem(KEY, JSON.stringify(verdicts)); } catch (e) {} };
+let list = [], idx = 0, actual = false, nbr = false, yel = true;
+const BYLABEL = Object.fromEntries(ITEMS.map(i => [i.label, i]));
+const NAMES = { letters: "letters", maybe: "possible letter", strokes: "ink, no letter", unsure: "unsure", no: "not ink", ink: "ink (earlier)" };
+const VKEYS = { 1: "letters", 2: "maybe", 3: "strokes", 4: "unsure", 5: "no" };
+// what each filter shows; the option labels get live counts
+const FILTERS = {
+  cand: i => i.cand, todo: i => i.cand && !verdicts[i.label],
+  good: i => verdicts[i.label] && ["letters", "maybe", "ink"].includes(verdicts[i.label].v),
+  judged: i => !!verdicts[i.label], main: i => i.main, all: () => true };
+const natural = l => { const [w, t] = l.split("/"); const m = w.match(/^([A-Z]+)(\d*)(.*)$/);
+  return [m[1], +(m[2] || 0), m[3], +t.slice(1)]; };
+const cmp = (a, b) => { for (let i = 0; i < 4; i++) { if (a[i] < b[i]) return -1; if (a[i] > b[i]) return 1; } return 0; };
+const $ = s => document.querySelector(s);
+// flags on the turn just inside / outside the same window (touching windings, like 343's w047 / w048)
+const touching = it => { const [w, t] = it.label.split("/"), n = +t.slice(1);
+  return [n - 1, n + 1].map(k => w + "/w" + String(k).padStart(3, "0")).filter(l => BYLABEL[l]); };
+// chains of flags on consecutive turns of one window; longest chains first, singles last (each part strongest first)
+function touchOrder(items) {
+  const byPos = items.slice().sort((a, b) => cmp(natural(a.label), natural(b.label))), groups = [];
+  byPos.forEach(i => { const g = groups[groups.length - 1], prev = g && g[g.length - 1];
+    const [pa, pb] = prev ? [natural(prev.label), natural(i.label)] : [];
+    if (prev && pa[0] === pb[0] && pa[1] === pb[1] && pa[2] === pb[2] && pb[3] === pa[3] + 1) g.push(i); else groups.push([i]); });
+  const best = g => Math.max(...g.map(i => Math.max(i.fwd, i.rev)));
+  groups.sort((a, b) => (b.length > 1) - (a.length > 1) || b.length - a.length || best(b) - best(a));
+  return groups.flat();
+}
+
+function pct(x) { return (100 * (x || 0)).toFixed(1) + "%"; }
+function applyFilter(keepLabel) {
+  const f = $("#filter").value;
+  list = ITEMS.filter(FILTERS[f] || FILTERS.cand);
+  document.querySelectorAll("#filter option").forEach(o => { o.textContent = o.dataset.name + " (" + ITEMS.filter(FILTERS[o.value]).length + ")"; });
+  if ($("#order").value === "pos") list = list.slice().sort((a, b) => cmp(natural(a.label), natural(b.label)));
+  if ($("#order").value === "touch") list = touchOrder(list);
+  idx = Math.max(0, keepLabel ? list.findIndex(i => i.label === keepLabel) : 0);
+  render();
+}
+// reference captions: the 343 letter turns run through our own pipeline are named by turn
+function refCaption(p) {
+  const m = p.match(/R343\/review_cand\/(w\d+)_/);
+  return m ? `343 real letters, turn ${m[1]}: yellow view from OUR pipeline (same as your candidates)`
+    : p.split("/").pop().replace(".png", "").replace(/_/g, " ");
+}
+// yellow ink view (343 announcement style): this turn large, then the neighbour turns; shown first, on by default
+function yellowSection(it) {
+  if (!it.lights.length) return `<div class="empty">No yellow view for this flag (only flags with a detail review have one). Press Y to hide this note.</div>`;
+  const role = p => { const r = p.split("/").slice(-3, -2)[0]; return r === "target" ? "this turn" : "neighbour turn " + r; };
+  const [hero, ...rest] = it.lights;
+  return `<div class="label sub">Yellow ink (as in the 343 announcement)</div>
+    <div class="hint">Average of the winner's four models in yellow over the dimmed scan. Look for stroke-shaped yellow
+      (bars, curves, letters), not round blobs. Compare with R (343). Press Y to hide.</div>
+    <figure class="hero"><a href="${hero}" target="_blank"><img src="${hero}" alt="yellow ink, ${role(hero)}"
+      onerror="this.closest('figure').innerHTML='<div class=empty>Yellow image missing: ${hero}</div>'"></a>
+      <figcaption>${role(hero)}</figcaption></figure>
+    ${rest.length ? `<div class="panels">${rest.map(p => `<a href="${p}" target="_blank"><img loading="lazy" src="${p}" alt="">
+      ${role(p)}</a>`).join("")}</div>` : ""}`;
+}
+function render() {
+  const judged = Object.values(verdicts).filter(x => x.v).length;
+  const v = $("#view");
+  if (!list.length) { v.innerHTML = '<div class="empty">Nothing to show for this filter.</div>';
+    $("#pos").innerHTML = `0 shown · <b>${judged}</b> / ${ITEMS.length} judged`; return; }
+  const it = list[idx], cur = verdicts[it.label] || {};
+  $("#pos").innerHTML = `<b>${idx + 1}</b> / ${list.length} shown · <b>${judged}</b> / ${ITEMS.length} judged`;
+  document.querySelectorAll("[data-v]").forEach(b => b.classList.toggle("on", b.dataset.v === cur.v));
+  $("#note").value = cur.note || "";
+  const face = it.rev >= it.fwd ? "reverse" : "forward";
+  const tf = touching(it);
+  v.innerHTML = `<div class="label">${it.label}${tf.length ? ` <span class="badge b-touch">touching flag: ${tf.map(l => l.split("/")[1]).join(", ")} (press G)</span>` : ""}${it.same.length ? ` <span class="badge b-same" title="The same papyrus spot, seen from an overlapping window: judge them together; it counts once">same spot as ${it.same.join(", ")}</span>` : ""}</div>
+    <div class="meta">${it.pass} · ${it.cm2 ? it.cm2.toFixed(1) + " cm²" : ""} · both models agree on
+      <b>${pct(it.fwd)}</b> forward, <b>${pct(it.rev)}</b> reverse (look at the <b>${face}</b> panels)</div>
+    ${yel ? yellowSection(it) : ""}
+    ${it.whole ? `<div class="label sub">Whole turn, yellow (about ${it.cm2 ? it.cm2.toFixed(0) : "?"} cm²)</div>
+      <div class="hint">The entire turn, not just the review box: the three screen models at the surface (one depth),
+        yellow over the dimmed scan, 1 cm bar bottom left. Look along the whole strip for rows of stroke-shaped marks.
+        Click to open full size and zoom.</div>
+      <div class="scroller"><a href="${it.whole}" target="_blank"><img class="sheet" loading="lazy" src="${it.whole}" alt="whole turn ${it.label}"></a></div>` : ""}
+    ${it.xsec ? `<div class="label sub">Placement cross-section</div>
+      <div class="hint">A slice through the scan at the flag: the drawn line is our surface. It should follow one papyrus
+        layer; a line crossing gaps, voids or between layers means the flag may not sit on the papyrus.</div>
+      <a href="${it.xsec}" target="_blank"><img class="sheet" loading="lazy" src="${it.xsec}" alt="cross-section for ${it.label}"></a>` : ""}
+    <div class="label sub">Contact sheet${nbr ? " (neighbour turns side by side)" : ""}</div>
+    <div class="hint">Three ink models, each forward then reverse; raw CT at the bottom (1 cm bar).</div>
+    ${nbr ? trio(it) : `<div class="scroller">${it.sheet ? `<img class="sheet${actual ? " actual" : ""}" src="${it.sheet}" alt="contact sheet for ${it.label}">`
+      : '<div class="empty">Contact sheet not on the Mac yet (next backup).</div>'}</div>`}
+    ${it.panels.length ? `<div class="label sub">Detail review panels (grey, one model per row)</div>
+      <div class="hint">Native resolution; target turn and its neighbours. Click to open full size.</div>
+      <div class="panels">${it.panels.map(p => `<a href="${p}" target="_blank"><img loading="lazy" src="${p}" alt="">
+        ${p.split("/").slice(-2).join("/")}</a>`).join("")}</div>` : ""}`;
+  window.scrollTo(0, 0);
+}
+// the turn before and after in the same window, side by side at the same scale (letters can run across turns, as on 343)
+function trio(it) {
+  const [w, t] = it.label.split("/"), n = +t.slice(1), all = SHEETS[w] || {};
+  return `<div class="hint">Turns ${n - 1}, ${n}, ${n + 1} of ${w}, same scale; the current turn is outlined. Press G to go back.</div>
+    <div class="trio">${[n - 1, n, n + 1].map(k => { const name = "w" + String(k).padStart(3, "0"), lab = w + "/" + name;
+      const src = all[name], flag = BYLABEL[lab], vd = verdicts[lab] && verdicts[lab].v;
+      return `<div class="${k === n ? "cur" : ""}"><div class="cap"><b>${name}</b> ${flag ? "flagged" : "not flagged"}${vd ?
+        `<span class="badge b-${vd}">${NAMES[vd] || vd}</span>` : ""}</div>${src ?
+        `<img class="sheet" src="${src}" alt="${lab}">` : '<div class="empty">not screened (below the 70% scope)</div>'}</div>`; }).join("")}</div>`;
+}
+function setVerdict(v) {
+  if (!list.length) return;
+  const it = list[idx];
+  verdicts[it.label] = { v, note: $("#note").value, at: new Date().toISOString() };
+  save();
+  if (idx < list.length - 1) idx++;
+  if ($("#filter").value === "todo") applyFilter(list[idx] && list[idx].label); else render();
+}
+$("#prev").onclick = () => { if (idx > 0) { idx--; render(); } };
+$("#next").onclick = () => { if (idx < list.length - 1) { idx++; render(); } };
+document.querySelectorAll("[data-v]").forEach(b => b.onclick = () => setVerdict(b.dataset.v));
+$("#filter").onchange = () => { $("#filter").blur(); applyFilter(); };  // blur: later key presses must not change the menu
+$("#order").onchange = () => { $("#order").blur(); applyFilter(list[idx] && list[idx].label); };
+document.addEventListener("click", e => { const b = e.target.closest("button"); if (b) b.blur(); });  // Space/Enter must not re-click
+$("#yel").onclick = () => { yel = !yel; $("#yel").classList.toggle("on", yel); render(); };
+$("#mir").onclick = () => { const on = document.body.classList.toggle("mirror"); $("#mir").classList.toggle("on", on); };
+$("#nbr").onclick = () => { nbr = !nbr; $("#nbr").classList.toggle("on", nbr); render(); };
+$("#note").oninput = () => { const it = list[idx]; if (!it) return;
+  verdicts[it.label] = Object.assign(verdicts[it.label] || {}, { note: $("#note").value }); save(); };
+$("#reftoggle").onclick = () => { const on = $("#ref").classList.toggle("show"); document.body.classList.toggle("refon", on);
+  document.documentElement.style.setProperty("--hdr", document.querySelector("header").offsetHeight + "px"); };
+$("#size").onclick = () => { actual = !actual; render(); };
+$("#export").onclick = () => {
+  const out = ITEMS.filter(i => verdicts[i.label]).map(i => Object.assign({ label: i.label, pass: i.pass }, verdicts[i.label]));
+  const a = document.createElement("a");
+  a.href = URL.createObjectURL(new Blob([JSON.stringify(out, null, 1)], { type: "application/json" }));
+  a.download = "ink_verdicts.json"; a.click();
+};
+$("#importbtn").onclick = () => $("#import").click();
+$("#import").onchange = e => { const f = e.target.files[0]; if (!f) return;
+  f.text().then(t => { JSON.parse(t).forEach(r => { verdicts[r.label] = { v: r.v, note: r.note || "", at: r.at }; });
+    save(); applyFilter(); }); };
+document.addEventListener("keydown", e => {
+  if (e.metaKey || e.ctrlKey || e.altKey) return;  // Cmd+R (reload), Cmd+F etc. are the browser's, not ours
+  if (e.target.id === "note") { if (e.key === "Enter" || e.key === "Escape") e.target.blur(); return; }
+  if (e.target.tagName === "SELECT" || e.target.tagName === "INPUT") return;
+  const k = e.key.toLowerCase();
+  if (k === "arrowright") $("#next").click(); else if (k === "arrowleft") $("#prev").click();
+  else if (VKEYS[k]) setVerdict(VKEYS[k]);
+  else if (k === "r") $("#reftoggle").click(); else if (k === "f") $("#size").click();
+  else if (k === "g") $("#nbr").click();
+  else if (k === "m") $("#mir").click();
+  else if (k === "y") $("#yel").click();
+});
+$("#ref").insertAdjacentHTML("beforeend", CTRL.map(p => `<div class="cap">${refCaption(p)}</div><img src="${p}" alt="343 control">`).join(""));
+applyFilter();
+</script>
+</body>
+</html>

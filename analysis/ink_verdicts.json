@@ -1,0 +1,3344 @@
+[
+ {
+  "label": "C6f/w022",
+  "pass": "main (flattened, >=70%)",
+  "v": "strokes",
+  "note": ""
+ },
+ {
+  "label": "C1f/w023",
+  "pass": "main (flattened, >=70%)",
+  "v": "ink",
+  "note": ""
+ },
+ {
+  "label": "C1f/w024",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C2f/w024",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C3f/w024",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C3f/w059",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C1f/w026",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C10f/w020",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "Af/w067",
+  "pass": "main (flattened, >=70%)",
+  "v": "ink",
+  "note": ""
+ },
+ {
+  "label": "C2f/w025",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "Af/w066",
+  "pass": "main (flattened, >=70%)",
+  "v": "ink",
+  "note": ""
+ },
+ {
+  "label": "C2f/w049",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "Af/w053",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C1f/w052",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C3f/w058",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C10f/w022",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "Af/w026",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C6f/w021",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C10f/w019",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C7f/w024",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C6f/w029",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C6f/w023",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C2f/w062",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C5f/w047",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C1f/w065",
+  "pass": "main (flattened, >=70%)",
+  "v": "ink",
+  "note": ""
+ },
+ {
+  "label": "C6f/w048",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C4f/w060",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C3f/w046",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C4f/w046",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C4f/w028",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C8f/w047",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "E12f/w040",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C4f/w026",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C9f/w049",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C9f/w085",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C5f/w033",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C4f/w025",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "E1f/w070",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C9f/w023",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C7f/w025",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "Af/w078",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C1f/w066",
+  "pass": "main (flattened, >=70%)",
+  "v": "ink",
+  "note": ""
+ },
+ {
+  "label": "C6f/w026",
+  "pass": "main (flattened, >=70%)",
+  "v": "maybe",
+  "note": ""
+ },
+ {
+  "label": "C5f/w050",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C2f/w065",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C10f/w042",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C5f/w059",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C7f/w022",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C2f/w066",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C1f/w079",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C3f/w031",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C6f/w036",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C3f/w038",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C7f/w036",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "Af/w064",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C4f/w050",
+  "pass": "main (flattened, >=70%)",
+  "v": "maybe",
+  "note": ""
+ },
+ {
+  "label": "C9f/w050",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "Af/w062",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C10f/w061",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C10f/w044",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C6f/w061",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "E13f/w026",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C6f/w076",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C1f/w022",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C6f/w062",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C1f/w027",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C5f/w060",
+  "pass": "main (flattened, >=70%)",
+  "v": "unsure",
+  "note": ""
+ },
+ {
+  "label": "Af/w058",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "D3f/w033",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C5f/w046",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C4f/w049",
+  "pass": "main (flattened, >=70%)",
+  "v": "maybe",
+  "note": ""
+ },
+ {
+  "label": "C2f/w048",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C2f/w081",
+  "pass": "main (flattened, >=70%)",
+  "v": "maybe",
+  "note": ""
+ },
+ {
+  "label": "C1f/w051",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C9f/w026",
+  "pass": "main (flattened, >=70%)",
+  "v": "maybe",
+  "note": ""
+ },
+ {
+  "label": "C5f/w081",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C6f/w077",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C2f/w040",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C5f/w061",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "D1f/w047",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C10f/w021",
+  "pass": "main (flattened, >=70%)",
+  "v": "strokes",
+  "note": ""
+ },
+ {
+  "label": "C2f/w064",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C1f/w091",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C3f/w061",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C5f/w039",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "Af/w065",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C3f/w049",
+  "pass": "main (flattened, >=70%)",
+  "v": "maybe",
+  "note": ""
+ },
+ {
+  "label": "C1f/w058",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C9f/w048",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C4f/w042",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C2f/w075",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C10f/w038",
+  "pass": "main (flattened, >=70%)",
+  "v": "maybe",
+  "note": ""
+ },
+ {
+  "label": "E12f/w032",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C3f/w047",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C3f/w072",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C4f/w039",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C9f/w063",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C4f/w053",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "D3f/w034",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C6f/w025",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "Af/w063",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C1f/w061",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C8f/w050",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C2f/w033",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C9f/w066",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C5f/w051",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C7f/w038",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C8f/w022",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C8f/w028",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C4f/w055",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C6f/w063",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C8f/w024",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C2f/w050",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C10f/w043",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C4f/w074",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C7f/w060",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C2f/w041",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C3f/w051",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C10f/w060",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C10f/w069",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C4f/w038",
+  "pass": "main (flattened, >=70%)",
+  "v": "maybe",
+  "note": ""
+ },
+ {
+  "label": "E12f/w049",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C2f/w022",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C10f/w046",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C1f/w067",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C9f/w064",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C1f/w034",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C8f/w067",
+  "pass": "main (flattened, >=70%)",
+  "v": "strokes",
+  "note": ""
+ },
+ {
+  "label": "Af/w050",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C9f/w022",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "Af/w090",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C4f/w076",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C2f/w090",
+  "pass": "main (flattened, >=70%)",
+  "v": "maybe",
+  "note": ""
+ },
+ {
+  "label": "C2f/w023",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C10f/w024",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C7f/w046",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "D1f/w055",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C2f/w076",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C5f/w057",
+  "pass": "main (flattened, >=70%)",
+  "v": "maybe",
+  "note": ""
+ },
+ {
+  "label": "C8f/w059",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C3f/w045",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C2f/w084",
+  "pass": "main (flattened, >=70%)",
+  "v": "maybe",
+  "note": ""
+ },
+ {
+  "label": "C4f/w072",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C10f/w054",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "E1f/w084",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "Af/w039",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C2f/w086",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "E12f/w036",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C9f/w039",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C1f/w062",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C9f/w040",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C9f/w045",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "D1f/w062",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C5f/w058",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C9f/w043",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C6f/w035",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C9f/w072",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C6f/w039",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C9f/w044",
+  "pass": "main (flattened, >=70%)",
+  "v": "strokes",
+  "note": ""
+ },
+ {
+  "label": "C5f/w063",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C5f/w076",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "E1f/w090",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C10f/w068",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C9f/w068",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C2f/w074",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C4f/w073",
+  "pass": "main (flattened, >=70%)",
+  "v": "strokes",
+  "note": ""
+ },
+ {
+  "label": "Af/w091",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C4f/w059",
+  "pass": "main (flattened, >=70%)",
+  "v": "maybe",
+  "note": ""
+ },
+ {
+  "label": "C10f/w045",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C9f/w060",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C8f/w034",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C8f/w038",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C8f/w046",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C6f/w078",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C1f/w043",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C7f/w035",
+  "pass": "main (flattened, >=70%)",
+  "v": "maybe",
+  "note": ""
+ },
+ {
+  "label": "C8f/w040",
+  "pass": "main (flattened, >=70%)",
+  "v": "strokes",
+  "note": ""
+ },
+ {
+  "label": "D1f/w044",
+  "pass": "main (flattened, >=70%)",
+  "v": "strokes",
+  "note": ""
+ },
+ {
+  "label": "C9f/w047",
+  "pass": "main (flattened, >=70%)",
+  "v": "strokes",
+  "note": ""
+ },
+ {
+  "label": "C5f/w073",
+  "pass": "main (flattened, >=70%)",
+  "v": "maybe",
+  "note": ""
+ },
+ {
+  "label": "C6f/w075",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C8f/w062",
+  "pass": "main (flattened, >=70%)",
+  "v": "maybe",
+  "note": ""
+ },
+ {
+  "label": "C10f/w036",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C3f/w044",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C4f/w035",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "E1f/w064",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C9f/w021",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "E1f/w087",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C2f/w089",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C1f/w044",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C1f/w032",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C3f/w050",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C9f/w067",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C7f/w040",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C2f/w077",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C3f/w087",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C2f/w021",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C10f/w065",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C6f/w052",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C7f/w064",
+  "pass": "main (flattened, >=70%)",
+  "v": "strokes",
+  "note": ""
+ },
+ {
+  "label": "C5f/w052",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "E1f/w068",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "Af/w087",
+  "pass": "main (flattened, >=70%)",
+  "v": "ink",
+  "note": ""
+ },
+ {
+  "label": "C6f/w060",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C5f/w038",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C8f/w045",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "E12f/w026",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C3f/w074",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C4f/w043",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "D1f/w034",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C5f/w054",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C8f/w054",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "Af/w060",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C6f/w034",
+  "pass": "main (flattened, >=70%)",
+  "v": "strokes",
+  "note": ""
+ },
+ {
+  "label": "D1f/w065",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "E12f/w044",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C2f/w078",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C1f/w054",
+  "pass": "main (flattened, >=70%)",
+  "v": "strokes",
+  "note": ""
+ },
+ {
+  "label": "C9f/w062",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C6f/w056",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C6f/w054",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "Af/w069",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C8f/w070",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C10f/w023",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C3f/w085",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C10f/w078",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C6f/w058",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C10f/w040",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C1f/w092",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C9f/w080",
+  "pass": "main (flattened, >=70%)",
+  "v": "strokes",
+  "note": ""
+ },
+ {
+  "label": "Af/w043",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C1f/w086",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C2f/w083",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C8f/w060",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C7f/w023",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "E12f/w034",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C6f/w079",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C3f/w086",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C3f/w064",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C2f/w068",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C9f/w056",
+  "pass": "main (flattened, >=70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C1s/w023",
+  "pass": "seam strip",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C1sx/w024",
+  "pass": "exploratory seam",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "D3sx/w065",
+  "pass": "exploratory seam",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C2/w024",
+  "pass": "first pass (unflattened)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C1/w026",
+  "pass": "first pass (unflattened)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "E6x/w086",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "D8sx/w095",
+  "pass": "exploratory seam",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C1x/w025",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "D3sx/w066",
+  "pass": "exploratory seam",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "E5x/w061",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C1/w052",
+  "pass": "first pass (unflattened)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "E5x/w073",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C2/w025",
+  "pass": "first pass (unflattened)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C1/w065",
+  "pass": "first pass (unflattened)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C4/w060",
+  "pass": "first pass (unflattened)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "E7x/w076",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "E7x/w096",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "E7x/w087",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "E6x/w096",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "E7x/w086",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "E8x/w099",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C4/w046",
+  "pass": "first pass (unflattened)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "E5x/w085",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C2/w062",
+  "pass": "first pass (unflattened)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C1/w066",
+  "pass": "first pass (unflattened)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "E8x/w075",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "D8sx/w094",
+  "pass": "exploratory seam",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "E12x/w043",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "E8x/w078",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "E12x/w041",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "E8x/w077",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "D6x/w058",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "E12/w040",
+  "pass": "first pass (unflattened)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "E9x/w100",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "E12x/w042",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C9/w085",
+  "pass": "first pass (unflattened)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "E7x/w097",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "E9x/w101",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "E7x/w098",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C2/w049",
+  "pass": "first pass (unflattened)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "E8x/w100",
+  "pass": "exploratory (60-70%)",
+  "v": "ink",
+  "note": ""
+ },
+ {
+  "label": "E7x/w112",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "E12x/w028",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "D2x/w048",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "D4x/w049",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "E9x/w074",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "E6x/w103",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "E5x/w096",
+  "pass": "exploratory (60-70%)",
+  "v": "ink",
+  "note": ""
+ },
+ {
+  "label": "E6x/w098",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "D3x/w066",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "D5x/w045",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "E5x/w103",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "E6x/w095",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "E12x/w068",
+  "pass": "exploratory (60-70%)",
+  "v": "ink",
+  "note": ""
+ },
+ {
+  "label": "D6x/w057",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "E6x/w090",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "E6x/w104",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "D2x/w047",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "E2x/w077",
+  "pass": "exploratory (60-70%)",
+  "v": "maybe",
+  "note": ""
+ },
+ {
+  "label": "C1sx/w088",
+  "pass": "exploratory seam",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "E7x/w075",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C9/w049",
+  "pass": "first pass (unflattened)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "D3x/w045",
+  "pass": "exploratory (60-70%)",
+  "v": "ink",
+  "note": ""
+ },
+ {
+  "label": "E5x/w088",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "E6x/w085",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C2x/w063",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "E5x/w068",
+  "pass": "exploratory (60-70%)",
+  "v": "ink",
+  "note": ""
+ },
+ {
+  "label": "E8x/w101",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "E9x/w051",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "E5x/w095",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "E7x/w074",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "E7x/w078",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "E2x/w090",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "E8x/w069",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "E9x/w050",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "E8x/w081",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "E9x/w070",
+  "pass": "exploratory (60-70%)",
+  "v": "ink",
+  "note": ""
+ },
+ {
+  "label": "E5x/w097",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "E6x/w097",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "E9x/w098",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "E6x/w071",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "D1x/w048",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "E5x/w104",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "E7x/w081",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "E9x/w081",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C1/w068",
+  "pass": "first pass (unflattened)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "E8x/w098",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "E9x/w075",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C9s/w039",
+  "pass": "seam strip",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "E8x/w089",
+  "pass": "exploratory (60-70%)",
+  "v": "ink",
+  "note": ""
+ },
+ {
+  "label": "E6x/w064",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "E7x/w065",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "E12x/w051",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "E8x/w072",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "E5x/w080",
+  "pass": "exploratory (60-70%)",
+  "v": "ink",
+  "note": ""
+ },
+ {
+  "label": "E12x/w055",
+  "pass": "exploratory (60-70%)",
+  "v": "ink",
+  "note": ""
+ },
+ {
+  "label": "C4/w028",
+  "pass": "first pass (unflattened)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "E8x/w074",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C1/w024",
+  "pass": "first pass (unflattened)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "E8x/w104",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "E5x/w078",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "E9x/w068",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "E12x/w058",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C2/w065",
+  "pass": "first pass (unflattened)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "E6x/w089",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "D1x/w046",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "D3x/w046",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "D3x/w065",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "E8x/w080",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "D6x/w073",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C2/w048",
+  "pass": "first pass (unflattened)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "E8x/w083",
+  "pass": "exploratory (60-70%)",
+  "v": "ink",
+  "note": ""
+ },
+ {
+  "label": "C5/w047",
+  "pass": "first pass (unflattened)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C2/w075",
+  "pass": "first pass (unflattened)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "E7x/w061",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "E12x/w027",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "E8x/w065",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "E12x/w069",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "E8sx/w063",
+  "pass": "exploratory seam",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "E8x/w087",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "D5x/w044",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "D1x/w056",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "E8x/w088",
+  "pass": "exploratory (60-70%)",
+  "v": "ink",
+  "note": ""
+ },
+ {
+  "label": "E9x/w093",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "E8x/w076",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "D7x/w071",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C2x/w080",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "E6x/w088",
+  "pass": "exploratory (60-70%)",
+  "v": "unsure",
+  "note": ""
+ },
+ {
+  "label": "D1x/w037",
+  "pass": "exploratory (60-70%)",
+  "v": "ink",
+  "note": ""
+ },
+ {
+  "label": "E7x/w088",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "D7x/w070",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "E12x/w038",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "D7x/w056",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C4/w025",
+  "pass": "first pass (unflattened)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "D1x/w038",
+  "pass": "exploratory (60-70%)",
+  "v": "ink",
+  "note": ""
+ },
+ {
+  "label": "E8x/w103",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "E8x/w064",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "E6x/w106",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "E5x/w102",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "E9x/w097",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "E8x/w068",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "E8x/w102",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C10/w061",
+  "pass": "first pass (unflattened)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "E5x/w093",
+  "pass": "exploratory (60-70%)",
+  "v": "ink",
+  "note": ""
+ },
+ {
+  "label": "C1sx/w033",
+  "pass": "exploratory seam",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C1/w078",
+  "pass": "first pass (unflattened)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "E12x/w074",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C1/w061",
+  "pass": "first pass (unflattened)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "D2x/w078",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C9sx/w036",
+  "pass": "exploratory seam",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C8/w067",
+  "pass": "first pass (unflattened)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C2/w061",
+  "pass": "first pass (unflattened)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C1/w051",
+  "pass": "first pass (unflattened)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "E6x/w093",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "E9x/w069",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "E7x/w080",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "D3x/w076",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C1/w064",
+  "pass": "first pass (unflattened)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "E8x/w105",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "E8sx/w064",
+  "pass": "exploratory seam",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "E9x/w095",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "E6x/w066",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "E9x/w059",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "E5x/w074",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "E6x/w073",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "E9x/w094",
+  "pass": "exploratory (60-70%)",
+  "v": "ink",
+  "note": ""
+ },
+ {
+  "label": "D1x/w045",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "E7x/w095",
+  "pass": "exploratory (60-70%)",
+  "v": "maybe",
+  "note": ""
+ },
+ {
+  "label": "C9/w068",
+  "pass": "first pass (unflattened)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "E6x/w091",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "E5x/w089",
+  "pass": "exploratory (60-70%)",
+  "v": "ink",
+  "note": ""
+ },
+ {
+  "label": "E9x/w079",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C2/w066",
+  "pass": "first pass (unflattened)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "E7x/w073",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "D5x/w043",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "D1x/w060",
+  "pass": "exploratory (60-70%)",
+  "v": "ink",
+  "note": ""
+ },
+ {
+  "label": "E6x/w102",
+  "pass": "exploratory (60-70%)",
+  "v": "maybe",
+  "note": ""
+ },
+ {
+  "label": "D1x/w032",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "D1x/w033",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "E12x/w054",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "E9x/w065",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "D3x/w067",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "D4x/w027",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "E8x/w063",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "E7x/w077",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "E7x/w102",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "D2x/w057",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "E8x/w106",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "D2x/w075",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "D2x/w084",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "E9x/w066",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C8/w047",
+  "pass": "first pass (unflattened)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C1/w023",
+  "pass": "first pass (unflattened)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C4/w050",
+  "pass": "first pass (unflattened)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "D2x/w072",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "E5x/w098",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "E5x/w071",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "D1x/w069",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "E8x/w090",
+  "pass": "exploratory (60-70%)",
+  "v": "ink",
+  "note": ""
+ },
+ {
+  "label": "C9/w050",
+  "pass": "first pass (unflattened)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "E9x/w082",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "D1x/w022",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "E12x/w088",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "D1x/w059",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "D3x/w083",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "E12x/w037",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "E5x/w112",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "E12x/w053",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C2/w074",
+  "pass": "first pass (unflattened)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "D1x/w057",
+  "pass": "exploratory (60-70%)",
+  "v": "ink",
+  "note": ""
+ },
+ {
+  "label": "C5/w061",
+  "pass": "first pass (unflattened)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "E7x/w085",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "E2x/w096",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "E12x/w091",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "E6x/w081",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "E7x/w099",
+  "pass": "exploratory (60-70%)",
+  "v": "maybe",
+  "note": ""
+ },
+ {
+  "label": "D2x/w077",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "E7x/w104",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C5/w060",
+  "pass": "first pass (unflattened)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "D2x/w076",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C1/w067",
+  "pass": "first pass (unflattened)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "E9x/w067",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C1/w079",
+  "pass": "first pass (unflattened)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "E2x/w091",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "E2x/w104",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "E2x/w076",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C2/w077",
+  "pass": "first pass (unflattened)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "D5x/w053",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "E9x/w071",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "E9x/w076",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "D2x/w032",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "E8x/w066",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "E8x/w067",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "E6x/w105",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "D3x/w047",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "E12x/w056",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "E4sx/w060",
+  "pass": "exploratory seam",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "D2x/w049",
+  "pass": "exploratory (60-70%)",
+  "v": "ink",
+  "note": ""
+ },
+ {
+  "label": "D3x/w044",
+  "pass": "exploratory (60-70%)",
+  "v": "ink",
+  "note": ""
+ },
+ {
+  "label": "E9x/w086",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "E12x/w087",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C2/w090",
+  "pass": "first pass (unflattened)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "E12x/w073",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "E7x/w090",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C2s/w021",
+  "pass": "seam strip",
+  "v": "maybe",
+  "note": ""
+ },
+ {
+  "label": "E9x/w078",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "D7x/w069",
+  "pass": "exploratory (60-70%)",
+  "v": "maybe",
+  "note": ""
+ },
+ {
+  "label": "D6x/w072",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "E9x/w080",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C2/w076",
+  "pass": "first pass (unflattened)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C1x/w095",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "E5x/w077",
+  "pass": "exploratory (60-70%)",
+  "v": "ink",
+  "note": ""
+ },
+ {
+  "label": "E8x/w107",
+  "pass": "exploratory (60-70%)",
+  "v": "ink",
+  "note": ""
+ },
+ {
+  "label": "D2x/w046",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C9s/w037",
+  "pass": "seam strip",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "E9x/w073",
+  "pass": "exploratory (60-70%)",
+  "v": "ink",
+  "note": ""
+ },
+ {
+  "label": "E7x/w082",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "D1x/w061",
+  "pass": "exploratory (60-70%)",
+  "v": "ink",
+  "note": ""
+ },
+ {
+  "label": "D6x/w086",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "D4x/w040",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C1x/w094",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "D3x/w039",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "D1x/w071",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "E8x/w097",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "E12x/w033",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "E6x/w078",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C1/w074",
+  "pass": "first pass (unflattened)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C2/w084",
+  "pass": "first pass (unflattened)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C10/w048",
+  "pass": "first pass (unflattened)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "D6x/w044",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "E7x/w066",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "E7x/w093",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "E2x/w097",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "D1x/w076",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "D2x/w073",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "D6x/w087",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "E8x/w079",
+  "pass": "exploratory (60-70%)",
+  "v": "ink",
+  "note": ""
+ },
+ {
+  "label": "D9x/w104",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "E5x/w072",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "D1x/w064",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "D1x/w081",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "E5x/w105",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "E12x/w085",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "D9x/w071",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "D3x/w040",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "E9x/w057",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "E8x/w084",
+  "pass": "exploratory (60-70%)",
+  "v": "ink",
+  "note": ""
+ },
+ {
+  "label": "E7x/w111",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "D2x/w074",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "D7x/w047",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "D2x/w085",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C1/w086",
+  "pass": "first pass (unflattened)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C9/w070",
+  "pass": "first pass (unflattened)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C9/w063",
+  "pass": "first pass (unflattened)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C7sx/w021",
+  "pass": "exploratory seam",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "D9x/w110",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "E9x/w084",
+  "pass": "exploratory (60-70%)",
+  "v": "ink",
+  "note": ""
+ },
+ {
+  "label": "D9x/w072",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "D7sx/w070",
+  "pass": "exploratory seam",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "E2x/w103",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "E8x/w094",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "C1/w087",
+  "pass": "first pass (unflattened)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "D3x/w069",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "E9x/w096",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "D6x/w056",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "E7x/w067",
+  "pass": "exploratory (60-70%)",
+  "v": "maybe",
+  "note": ""
+ },
+ {
+  "label": "E9x/w063",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "D2x/w064",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "E2x/w098",
+  "pass": "exploratory (60-70%)",
+  "v": "ink",
+  "note": ""
+ },
+ {
+  "label": "D3x/w048",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "E12x/w046",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "D7x/w085",
+  "pass": "exploratory (60-70%)",
+  "v": "maybe",
+  "note": ""
+ },
+ {
+  "label": "D1x/w067",
+  "pass": "exploratory (60-70%)",
+  "v": "ink",
+  "note": ""
+ },
+ {
+  "label": "D6x/w053",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "E12x/w086",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ },
+ {
+  "label": "E12x/w076",
+  "pass": "exploratory (60-70%)",
+  "v": "no",
+  "note": ""
+ }
+]

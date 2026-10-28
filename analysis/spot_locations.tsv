@@ -1,0 +1,30 @@
+spot	mesh (Hugging Face flat/<window>/mesh/)	face	box_x	box_y	box_w	box_h	z_slices	theta_deg	verdict	later_verdict
+Af/w087	w087_spliced_p8A	reverse	10657	395	1006	1099	9706-10495	-57 to -21	ink (earlier scale)	
+C10f/w021	w021_spliced_p8C10	forward	586	66	1318	1104	14685-15462	13 to 199	ink, no letter	
+C10f/w038	w038_spliced_p8C10	forward	502	98	1331	1208	14684-15626	4 to 149	possible letter	
+C1f/w054	w054_spliced_p8C1	reverse	2066	679	1048	959	10332-11039	93 to 171	ink, no letter	
+C2f/w081	w081_spliced_p8C2	reverse	2666	358	1551	1349	10582-11577	55 to 143	possible letter	no
+C2f/w084	w084_spliced_p8C2	forward	1596	399	1464	1388	10581-11578	14 to 68	possible letter	
+C2f/w090	w090_spliced_p8C2	reverse	11307	411	1556	1165	10581-11433	-58 to -12	possible letter	
+C3f/w049	w049_spliced_p8C3	reverse	2513	256	1487	1567	11121-12117	130 to 181	possible letter	possibly, really not sure; after the full depth sweep: no letters
+C4f/w038	w038_spliced_p8C4	reverse	3142	214	1176	1206	11667-12518	-181 to -151	possible letter	
+C4f/w049	w049_spliced_p8C4	reverse	2695	0	1386	1365	(window range)	(not recorded)	possible letter	
+C4f/w050	w050_spliced_p8C4	reverse	6423	93	1803	1338	11661-12613	-82 to -3	possible letter	
+C4f/w059	w059_spliced_p8C4	reverse	874	272	1100	1062	11664-12588	14 to 70	possible letter	
+C4f/w073	w073_spliced_p8C4	forward	9022	326	1127	1148	11664-12583	-47 to -10	ink, no letter	
+C5f/w057	w057_spliced_p8C5	reverse	5002	360	1518	1268	(window range)	(not recorded)	possible letter	
+C5f/w060	w060_spliced_p8C5	reverse	2289	207	1576	1557	12208-13192	90 to 174	unsure	
+C5f/w073	w073_spliced_p8C5	forward	2998	0	1207	931	(window range)	(not recorded)	possible letter	
+C6f/w022	w022_spliced_p8C6	forward	1788	134	1652	1596	12743-13738	-181 to 2	ink, no letter	no letter
+C6f/w026	w026_spliced_p8C6	forward	119	416	1358	1291	12790-13737	-0 to 162	possible letter	possibly, really not sure; after the full depth sweep: no letters
+C6f/w034	w034_spliced_p8C6	forward	745	48	1007	948	12745-13394	22 to 153	ink, no letter	no letter
+C7f/w035	w035_spliced_p8C7	reverse	2616	527	1083	1025	13549-14275	-185 to -118	possible letter	
+C7f/w064	w064_spliced_p8C7	forward	4451	40	1193	996	13283-13874	-194 to -159	ink, no letter	
+C8f/w040	w040_spliced_p8C8	reverse	263	8	1049	1033	13834-14610	1 to 60	ink, no letter	
+C8f/w062	w062_spliced_p8C8	reverse	0	596	863	1082	13833-14807	-3 to 19	possible letter	
+C8f/w067	w067_spliced_p8C8	reverse	5830	675	1351	1160	14020-14817	-167 to -93	ink, no letter	
+C9f/w026	w026_spliced_p8C9	forward	747	354	1293	1200	14391-15358	28 to 187	possible letter	
+C9f/w044	w044_spliced_p8C9	reverse	2146	614	1199	1067	14582-15360	150 to 188	ink, no letter	
+C9f/w047	w047_spliced_p8C9	forward	1253	433	1111	1045	14517-15353	42 to 162	ink, no letter	
+C9f/w080	w080_spliced_p8C9	reverse	5757	1097	1318	978	14667-15357	-185 to -154	ink, no letter	
+D1f/w044	w044_spliced_p8D1	reverse	3380	52	1134	1255	15228-16152	-183 to -142	ink, no letter	
