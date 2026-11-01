@@ -45,7 +45,8 @@ scattered small marks. The readout rules I fixed before looking are in [`prereg/
 ## What broke on the way
 
 - **The public 1218 meshes sit between the layers:** only 16% (median) of their surface lies within ±2 voxels of the
-  predicted sheet, against 71-75% for the winner's 343 meshes.
+  predicted sheet, against 71-75% recorded for the winner's 343 meshes.
+  - I snapped each winding to the nearest predicted sheet with the 343 winner’s snap_meshes.py, then counted the share of its surface within ±2 voxels. The 16% is the median over the 95 windings of at least 4 cm² in slices 9,700-10,500 of PHerc. 1218; the best winding reaches 49%. Counting the small inner windings too, the median is 32%.
   - Fix: I built new meshes with the winner's fitting chain (surf-SDT spacing, tracks, normals). Median share on the
     sheet per window: 67-71% in band C; 51-64% in bands D and E, which is why most of their turns only reached the
     exploratory pass.
